@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Our Fleet | Karoo Farming Transport</title>
+<meta name="description" content="Explore our 32-ton, 8-ton and 1-ton fleet in an interactive 3D viewer. MAN, Scania and Volvo trucks, interlinks and tri-axle trailers.">
+<meta name="theme-color" content="#0b1b5a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Our Fleet | Karoo Farming Transport">
+<meta property="og:description" content="Explore our 32-ton, 8-ton and 1-ton fleet in an interactive 3D viewer. MAN, Scania and Volvo trucks, interlinks and tri-axle trailers.">
+<meta property="og:image" content="assets/img/fleet-tipper-interlink.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700;1,800&amp;family=Barlow:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<noscript><style>.preloader{display:none}</style></noscript>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+<symbol id="i-truck" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol>
+<symbol id="i-box" viewBox="0 0 24 24"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></symbol>
+<symbol id="i-layers" viewBox="0 0 24 24"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol>
+<symbol id="i-cart" viewBox="0 0 24 24"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></symbol>
+<symbol id="i-sprout" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></symbol>
+<symbol id="i-weight" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><path d="M6.5 8a2 2 0 0 0-1.905 1.46L2.1 18.5A2 2 0 0 0 4 21h16a2 2 0 0 0 1.925-2.54L19.4 9.5A2 2 0 0 0 17.48 8Z"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+<symbol id="i-gps" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+<symbol id="i-map" viewBox="0 0 24 24"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" x2="9" y1="3" y2="18"/><line x1="15" x2="15" y1="6" y2="21"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+<symbol id="i-drag" viewBox="0 0 24 24"><path d="M16.47 7.5C15.64 4.24 13.95 2 12 2 9.24 2 7 6.48 7 12s2.24 10 5 10c.34 0 .68-.07 1-.2"/><path d="m15.19 13.71 3.82 1.86-1.86 3.81"/><path d="M19 15.57c-1.8.89-4.27 1.43-7 1.43-5.57 0-10-2.24-10-5s4.43-5 10-5c4.44 0 8.22 1.43 9.5 3.4"/></symbol>
+<symbol id="i-handshake" viewBox="0 0 24 24"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></symbol>
+<symbol id="i-tick-box" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="m8 12 3 3 5-6"/></symbol>
+<symbol id="i-truck-side" viewBox="0 0 240 74"><rect x="0" y="6" width="150" height="40" rx="4" fill="#0b1b5a"/><rect x="0" y="33" width="150" height="5" fill="#ffc40c"/><rect x="0" y="39" width="150" height="4" fill="#62c33a"/><path d="M156 14h44l22 20 14 4v10h-80z" fill="#f6f8ff"/><path d="M204 19l15 15h-15z" fill="#1d2d63"/><rect x="156" y="40" width="80" height="6" fill="#1a56d6"/><rect x="0" y="46" width="236" height="7" fill="#141a30"/><circle cx="34" cy="58" r="11" fill="#10131f"/><circle cx="58" cy="58" r="11" fill="#10131f"/><circle cx="126" cy="58" r="11" fill="#10131f"/><circle cx="212" cy="58" r="11" fill="#10131f"/></symbol>
+</svg>
+<div class="preloader" aria-hidden="true"><div class="preloader__in"><img class="preloader__logo" src="assets/img/logo.png" alt=""><div class="preloader__bar"><i></i></div></div></div>
+<div class="progress" aria-hidden="true"><div class="progress__bar"></div><svg class="progress__truck" viewBox="0 0 240 74"><use href="#i-truck-side"/></svg></div>
+<header class="site-header" data-header>
+  <div class="topbar"><div class="container topbar__in">
+    <span class="topbar__open"><i class="dot"></i> Open 24/7 for inquiries &amp; bookings</span>
+    <span class="topbar__links">
+      <a href="tel:+27232050507">Office: 023 205 0507</a>
+      <a href="https://wa.me/27792145474" data-wa="general" target="_blank" rel="noopener">WhatsApp: 079 214 5474</a>
+      <span>Off N1 Highway, Hanover</span>
+    </span>
+  </div></div>
+  <div class="navbar"><div class="container navbar__in">
+    <a class="brand" href="index.html" aria-label="Karoo Farming Transport home"><img src="assets/img/logo.png" alt="Karoo Farming Transport" width="257" height="172"></a>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="fleet.html" class="is-active" aria-current="page">Our Fleet</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+      <div class="nav__extra">
+        <a class="btn btn-wa " href="https://wa.me/27792145474" data-wa="quote" target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Get a Quote</span></a>
+        <a class="btn btn-ghost" href="tel:+27232050507"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span>Call Office</span></a>
+      </div>
+    </nav>
+    <a class="btn btn-wa btn-sm nav__cta" href="https://wa.me/27792145474" data-wa="quote" target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Get a Quote</span></a>
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div></div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Our fleet</span></nav>
+    <span class="eyebrow" style="margin-top:1.4rem">Our fleet</span>
+    <h1>Premium trucks.<br><span class="accent">Real capacity.</span></h1>
+    <p>MAN, Scania and Volvo trucks in 32-ton, 8-ton and 1-ton capacities &mdash; explore them in 3D below.</p>
+  </div>
+</section>
+
+<section class="section section--dark" id="fleet" style="padding-top:clamp(3rem,6vw,5rem)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">3D fleet viewer</span>
+      <h2>Spin it. <span class="accent">Zoom in.</span> Pick your truck.</h2>
+      <p>Drag to rotate, use the view buttons for side, front, rear and top, and switch between vehicles. Then enquire about the one that fits your load.</p>
+    </div>
+    <div class="reveal reveal--zoom"><div class="viewer" data-truck3d>
+  <div class="viewer__stage" tabindex="0" aria-label="Interactive 3D model of a Karoo Farming Transport truck. Drag to rotate.">
+    <div class="t3d" aria-hidden="true"></div>
+    <div class="viewer__hint"><svg class="ico" aria-hidden="true"><use href="#i-drag"/></svg> Drag to rotate</div>
+    <div class="viewer__tools">
+      <button data-view="angle">3/4</button><button data-view="side">Side</button><button data-view="front">Front</button><button data-view="rear">Rear</button><button data-view="top">Top</button>
+      <span class="sep"></span>
+      <button data-zoom="out" aria-label="Zoom out">&minus;</button><button data-zoom="in" aria-label="Zoom in">+</button>
+      <button data-spin aria-pressed="true">Auto</button>
+    </div>
+  </div>
+  <div class="viewer__panel">
+    <div class="viewer__tabs" role="tablist" aria-label="Choose a vehicle">
+      <button role="tab" data-variant="tipper" aria-selected="true">Side-Tipper 32t</button>
+      <button role="tab" data-variant="drop" aria-selected="false">Drop-Side 32t</button>
+      <button role="tab" data-variant="medium" aria-selected="false">Medium 8t</button>
+      <button role="tab" data-variant="light" aria-selected="false">Light 1t</button>
+    </div>
+    <h3 data-v-title>32-Ton Side-Tipper Interlink</h3>
+    <p data-v-desc></p>
+    <dl class="specs" data-v-specs></dl>
+    <div class="btn-row"><a class="btn btn-wa" href="https://wa.me/27792145474" data-wa="fleet:32-Ton Side-Tipper Interlink" data-v-wa target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Enquire on WhatsApp</span></a></div>
+  </div>
+</div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Capacity classes</span>
+      <h2>The right truck <span class="accent">for every load</span></h2>
+    </div>
+    <div class="grid-3" data-stagger>
+      <article class="reveal"><div class="svc" data-tilt>
+        <span class="svc__num">32t</span><div class="svc__ico"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg></div>
+        <h3>32-Ton Heavy Haulers</h3>
+        <p>Tri-axle interlinks for bulk loads, machinery, containers and heavy cargo. Available as side-tippers or drop-side.</p>
+        <ul class="tags"><li>Bulk loads</li><li>Machinery</li><li>Containers</li><li>Heavy cargo</li></ul>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/27792145474" data-wa="fleet:32-Ton Heavy Hauler" target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Enquire</span></a>
+      </div></article>
+      <article class="reveal"><div class="svc" data-tilt>
+        <span class="svc__num">8t</span><div class="svc__ico"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg></div>
+        <h3>8-Ton Medium Trucks</h3>
+        <p>Tri-axle medium trucks for retail stock, building materials, furniture and mid-sized loads.</p>
+        <ul class="tags"><li>Retail stock</li><li>Building materials</li><li>Furniture</li></ul>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/27792145474" data-wa="fleet:8-Ton Medium Truck" target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Enquire</span></a>
+      </div></article>
+      <article class="reveal"><div class="svc" data-tilt>
+        <span class="svc__num">1t</span><div class="svc__ico"><svg class="ico" aria-hidden="true"><use href="#i-truck"/></svg></div>
+        <h3>1-Ton Light Delivery</h3>
+        <p>For small parcels, documents and quick local runs when a full truck is not needed.</p>
+        <ul class="tags"><li>Parcels</li><li>Documents</li><li>Local runs</li></ul>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/27792145474" data-wa="fleet:1-Ton Light Delivery" target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Enquire</span></a>
+      </div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="gallery">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <span class="eyebrow">Gallery</span>
+      <h2>Our fleet <span class="accent">up close</span></h2>
+      <p>Click the centre image to view it full-size, or swipe through.</p>
+    </div>
+  </div>
+  <div class="container reveal reveal--zoom">
+    <div class="coverflow" data-coverflow tabindex="0" aria-label="Fleet photo gallery">
+      <figure class="cf-item" data-full="assets/img/fleet-tipper-interlink.jpg"><img src="assets/img/fleet-tipper-interlink.jpg" alt="Side-tipper interlink at dusk" loading="lazy"><figcaption>Side-tipper interlink</figcaption></figure>
+      <figure class="cf-item" data-full="assets/img/fleet-dropside-interlink.jpg"><img src="assets/img/fleet-dropside-interlink.jpg" alt="Drop-side interlink on the forecourt" loading="lazy"><figcaption>Drop-side interlink</figcaption></figure>
+      <figure class="cf-item" data-full="assets/img/fleet-triaxle-trailer.jpg"><img src="assets/img/fleet-triaxle-trailer.jpg" alt="Tri-axle drop-side trailer" loading="lazy"><figcaption>Tri-axle trailer</figcaption></figure>
+      <figure class="cf-item" data-full="assets/img/detail-cab.jpg"><img src="assets/img/detail-cab.jpg" alt="Tractor cab livery" loading="lazy"><figcaption>Cab livery</figcaption></figure>
+      <figure class="cf-item" data-full="assets/img/detail-tipper-livery.jpg"><img src="assets/img/detail-tipper-livery.jpg" alt="Side-tipper trailer livery" loading="lazy"><figcaption>Side-tipper trailer</figcaption></figure>
+      <figure class="cf-item" data-full="assets/img/detail-dropside-livery.jpg"><img src="assets/img/detail-dropside-livery.jpg" alt="Drop-side trailer livery" loading="lazy"><figcaption>Drop-side trailer</figcaption></figure>
+      <figure class="cf-item" data-full="assets/img/detail-trailer-panel.jpg"><img src="assets/img/detail-trailer-panel.jpg" alt="Trailer logo panel and mudguard" loading="lazy"><figcaption>Trailer panel</figcaption></figure>
+      <figure class="cf-item" data-full="assets/img/detail-wheels.jpg"><img src="assets/img/detail-wheels.jpg" alt="Tri-axle wheel group" loading="lazy"><figcaption>Tri-axle wheel group</figcaption></figure>
+      <button class="cf-btn cf-btn--prev" aria-label="Previous image"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      <button class="cf-btn cf-btn--next" aria-label="Next image"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    </div>
+    <div class="cf-dots"></div>
+  </div>
+</section>
+
+<section class="section section--mist">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <span class="eyebrow">Premium brands</span>
+      <h2>Trucks built to <span class="accent">go the distance</span></h2>
+    </div>
+    <div class="brands reveal"><div class="brand-pill">MAN</div><div class="brand-pill">SCANIA</div><div class="brand-pill">VOLVO</div></div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta__in">
+    <div class="reveal"><h2>Need a truck <span class="accent">today?</span></h2><p>Dispatch is open 24/7. Tell us your load and route and we&rsquo;ll match the right vehicle.</p></div>
+    <div class="btn-row reveal"><a class="btn btn-wa " href="https://wa.me/27792145474" data-wa="booking" target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Book on WhatsApp</span></a><a class="btn btn-ghost" href="tel:+27232050507"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> 023 205 0507</a></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/img/logo.png" alt="Karoo Farming Transport" width="257" height="172" loading="lazy">
+        <p>Nationwide container, bulk and general freight from the heart of the Karoo. Safe. Reliable. On time.</p>
+        <p><b style="color:#fff">Open 24/7</b> for inquiries &amp; bookings.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="fleet.html">Our Fleet</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#general-cargo">General Cargo</a></li>
+          <li><a href="services.html#removals">Furniture &amp; Removals</a></li>
+          <li><a href="services.html#building">Building Materials</a></li>
+          <li><a href="services.html#agri">Agricultural &amp; Machinery</a></li>
+          <li><a href="services.html#heavy">Heavy &amp; Bulk Loads</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__contact">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg><span>Off N1 Highway, Mieliefontein Farm,<br>Hanover, South Africa</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+27232050507">023 205 0507 (office)</a></li>
+          <li><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><a href="https://wa.me/27792145474" data-wa="general" target="_blank" rel="noopener">079 214 5474 (WhatsApp)</a></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg><span>Open 24/7 &mdash; inquiries &amp; bookings</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; <span data-year>2026</span> Karoo Farming Transport. All rights reserved.</span>
+      <span>Safe &bull; Reliable &bull; On Time</span>
+    </div>
+  </div>
+</footer>
+<div class="wa-widget" data-wa-widget>
+  <div class="wa-teaser">Need a quote? Chat to dispatch &mdash; we&rsquo;re open 24/7.</div>
+  <div class="wa-panel" id="wa-panel" role="dialog" aria-label="WhatsApp enquiries">
+    <div class="wa-panel__head">
+      <img src="assets/img/logo.png" alt="">
+      <div><b>Karoo Farming Transport</b><span><i class="dot"></i> Online &middot; Open 24/7</span></div>
+      <button class="wa-close" aria-label="Close chat panel"><svg class="ico" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+    <div class="wa-panel__body">
+      <p class="wa-bubble">Hello! Welcome to Karoo Farming Transport. We take inquiries and bookings 24/7. What can we help you with?</p>
+      <div class="wa-options">
+        <a href="https://wa.me/27792145474" data-wa="quote" target="_blank" rel="noopener"><span>Request a quote</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="https://wa.me/27792145474" data-wa="booking" target="_blank" rel="noopener"><span>Book a collection</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="https://wa.me/27792145474" data-wa="service:Container Transport" target="_blank" rel="noopener"><span>Container transport</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="https://wa.me/27792145474" data-wa="service:Local Delivery" target="_blank" rel="noopener"><span>Local delivery</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="https://wa.me/27792145474" data-wa="service:Long-Distance Delivery" target="_blank" rel="noopener"><span>Long-distance delivery</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="https://wa.me/27792145474" data-wa="service:Abnormal / Heavy Load" target="_blank" rel="noopener"><span>Abnormal / heavy load</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="https://wa.me/27792145474" data-wa="track" target="_blank" rel="noopener"><span>Track my delivery</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="https://wa.me/27792145474" data-wa="callback" target="_blank" rel="noopener"><span>Request a call back</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="wa-panel__foot">Opens WhatsApp with your message ready to send.</div>
+  </div>
+  <button class="wa-fab" aria-expanded="false" aria-controls="wa-panel"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg><span>Chat on WhatsApp</span></button>
+</div>
+<nav class="mbar" aria-label="Quick contact">
+  <a href="tel:+27232050507"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+  <a href="https://wa.me/27792145474" data-wa="general" target="_blank" rel="noopener"><svg class="ico ico-fill" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+  <a href="contact.html#quote"><svg class="ico" aria-hidden="true"><use href="#i-box"/></svg>Quote</a>
+</nav>
+<script src="js/main.js" defer></script>
+<script src="js/fleet3d.js" defer></script>
+</body>
+</html>
